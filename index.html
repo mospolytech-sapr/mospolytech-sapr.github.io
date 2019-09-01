@@ -6,12 +6,16 @@
 	<meta charset="utf-8">
 
 	<title>Московский Политех САПР</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+	<meta name="description" content="Главная страница образовательной программы Московского Политеха - Интеграция и программирование в САПР"> 
+    <meta name="Keywords" content="Московский Политех, САПР, программирование, 3d, моделлирование, inventor, autodesk, c++"> 
+    <meta property="og:title" content="Московский Политех САПР">
+    <meta property="og:description" content="Интеграция и программирование в САПР. Описание образовательной программы">
+    <meta property="og:image" content="img/@2x/logo_l.png">
 
 	<meta name="viewport" content="width=device-width">
 
 	<link rel="icon" href="img/favicon.ico">
-	<meta property="og:image" content="img/@1x/preview.jpg">
+	<meta property="og:image" content="img/@2x/logo_l.png">
 
 
 
@@ -25,11 +29,11 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 			<a href="#" class="navbar-brand" >
-					<img class="lazy img-responsive example-img"
+					<img class="lazy img-responsive"
 
-					src="data:image/gif;base64,R0lGODlhrQAuAIAAAP///wAAACH5BAEAAAEALAAAAACtAC4AAAJkjI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt9yu9wsOi8fksvmMTqvX7Lb7DY/L5/S6/Y7P6/f8vv8PGHhVAAA7"
-					data-src="img/@1x/logo.png"
-					data-srcset="img/@1x/logo.png 1x, img/@2x/logo.png 2x"
+					src="data:image/gif;base64,R0lGODlhBAABAIAAAP///wAAACH5BAEAAAEALAAAAAAEAAEAAAICjFMAOw=="
+					data-src="img/@1x/logo_l.png"
+					data-srcset="img/@1x/logo_l.png 1x, img/@2x/logo_l.png 2x"
 
 					alt="logo">
 			</a>
@@ -40,32 +44,32 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a href="#" class="nav-link">О программе</a>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">О программе</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#" class="nav-link">Преимущества</a>
+						<a href="#pluses" class="nav-link">Преимущества</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#" class="nav-link">Работы студентов</a>
+						<a href="#jobs" class="nav-link">Работы студентов</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#" class="nav-link">Наши партнеры</a>
+						<a href="#partners" class="nav-link">Наши партнеры</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#" class="nav-link">Руководитель программы</a>
+						<a href="#boss" class="nav-link">Руководитель программы</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#" class="nav-link">Контакты</a>
+						<a href="#contacts" class="nav-link">Контакты</a>
 					</li>
 
 					<li class="nav-item">
-						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Подать документы</button>
+						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit" onclick="location.href='https://mospolytech.ru/index.php'">Подать документы</button>
 					</li>
 
 					
@@ -96,7 +100,8 @@
 
 					alt="logo">
 			<h1>Интеграция и программ<wbr>ирование в САПР</h1>
-			<a class="btn btn-primary opendoor" href="#" role="button">День открытых дверей <br> <span>Подробнее...</span></a>
+			<a class="btn btn-primary opendoor" href="" role="button">День открытых дверей <br> <span>Подробнее...
+			</span></a>
 		</div>
 
 	</header>
@@ -104,7 +109,7 @@
 
 	<main role="main" >
 
-		<section class="container">
+		<section class="container" id="about">
 	  <div class="jumbotron">
 	    <h2>О ПРОГРАММЕ</h2>
 	    <hr class="hr-line">
@@ -154,7 +159,7 @@
 	      <li data-target="#myCarousel" data-slide-to="2"></li>
 	    </ol>
 
-    <div class="carousel-inner"  >
+    <div class="carousel-inner">
 
       <div class="carousel-item active">
         <div class="container">
@@ -201,7 +206,7 @@
 
 
 
-	<section class="container">
+	<section class="container" id="pluses">
 	  <div class="jumbotron">
 	    <h2 class="h2preim">ПРЕИМУЩЕСТВА НАШЕЙ ОБРАЗОВАТЕЛЬНОЙ ПРОГРАММЫ</h2>
 	    <hr class="hr-line">
@@ -339,7 +344,7 @@
 	</div>
 
 
-	<section class="container">
+	<section class="container" id="jobs">
 	  <div class="jumbotron">
 	    <h2>РАБОТЫ СТУДЕНТОВ</h2>
 	    <hr class="hr-line">
@@ -459,7 +464,7 @@
 	</div>
 
 
-	<section class="container">
+	<section class="container" id="partners">
 	  <div class="jumbotron">
 	    <h2>НАШИ ПАРТНЕРЫ</h2>
 	    <hr class="hr-line">
@@ -595,8 +600,111 @@
 
 
 
+
+
+	<section class="container" id="boss">
+		  <div class="jumbotron">
+		    <h2 class="rukovod">РУКОВОДИТЕЛЬ ОБРАЗОВАТЕЛЬНОЙ ПРОГРАММЫ</h2>
+		    <hr class="hr-line">
+		
+		<div class="contain">
+               <img class="lazy img-responsive example-img"
+
+					src="data:image/gif;base64,R0lGODlhAwAEAIAAAP///wAAACH5BAEAAAEALAAAAAADAAQAAAIDjI9WADs="
+					data-src="img/@1x/22_l.jpg"
+					data-srcset="img/@1x/22_l.jpg 1x, img/@2x/22_l.jpg 2x"
+
+					alt="Ковалёва А А фото">
+               <div class="aboutboss">
+                   <h3>Ковалёва Анастасия Александровна</h3>
+                   <p><strong>О себе:</strong> Имеет высшее техническое образование по специальности «Системы автоматизированного проектирования», магистр по направлению «Технологии машиностроения», ст. преподаватель НОЦ ИКТ, кафедры инженерной графики и компьютерного моделирования.</p>
+               </div>
+                <div class="aboutprog">
+                   <h3>О программе «Интеграция и программирование в САПР»:</h3>
+                   <p>«Интеграция и программирование в САПР» - это аббревиатура многим не знакома и вызывает непонимание. Абитуриенты и их родители часто не представляют, что это за профессия и насколько востребованы специалисты данного направления.</p>
+                   <br>
+                   <p>Дома, школы, стадионы, метро, поезда, самолеты – все это разработано и спроектировано опытным конструктором, вашим будущим высокооплачиваемым коллегой.</p>
+                   <br>
+                   <p>Программа направлена на погружение студента в профессиональную среду уже с начала обучения, а к моменту окончания вуза у каждого нашего выпускника есть портфолио его проектов, которые являются подтверждением опыта работы, высокой квалификации и рекомендациями будущему работодателю. Сложность заданий с каждым годом растет в соответствии с требованиями индустрии. Студенты 1-2 курсов сегодня выполняют проекты, которые несколько лет назад считались уровнем дипломной работы выпускника вуза.</p>
+                   <br>
+                   <p>Соревнования по 3D-моделированию, хакатоны по программированию, чемпионаты молодых профессионалов – отличная возможность для учащегося проверить результаты прикладной работы.</p>
+                   <br>
+                   <p>Я сама заканчивала это направление и в полной мере знаю все тонкости производственного и учебного процессов. Работа с проектами, заказчиками и дедлайнами позволила составить четкий план подготовки специалистов, которые будут востребованы на современном рынке труда.</p>
+                </div>
+           </div> 
+       </div>
+
+		</div>
+	</section>
+
+	
+
+	<section class="container" id="contacts">
+		  <div class="jumbotron">
+		    <h2 class="rukovod">КОНТАКТЫ</h2>
+		    <hr class="hr-line">
+
+
+
+			<section class="contacts" id="contacts">
+            <div class="contain2">
+                <div>
+                    <h4>Московский политехнический университет</h4>
+
+                    <p>Главный корпус</p>
+
+                    <p>107023, г. Москва, ул. Б. Семеновская, 38 <br>
+                        +7 (495) 223-05-23, <br>
+                        +7 (499) 785-62-24 (факс)</p>
+
+                    <a href="mailto:mospolytech@mospolytech.ru">mospolytech@mospolytech.ru</a>
+                </div>
+                <div>
+                    <h4>Приемная комиссия</h4>
+
+                    <p>+7 (495) 223-05-22, +7 (495) 223-05-23<br> (добавочные 1430, 1431, 1250, 1296) <br>
+                    +7 (499) 785-61-87 (факс)</p>
+
+                    <a href="mailto:priem@mospolytech.ru">priem@mospolytech.ru </a>
+
+                    <p>Приемная комиссия для иностранных граждан</p>
+
+                    <p>+7 (495) 223-05-23 (добавочный 1152, 1150) </p>
+
+                    <a href="mailto:urisa@mospolytech.ru">urisa@mospolytech.ru</a>
+                </div>
+                <div>
+                    <h4>Центр по работе со студентами</h4>
+
+                    <p>Центр по связям с общественностью
+                    (для СМИ)</p>
+
+                    <p>+7 (495) 223-05-23 (добавочный 1227) </p>
+
+                    <a href="mailto:press@mospolytech.ru">press@mospolytech.ru</a>
+                </div>
+            </div>
+            <h2 class="getdoc">ПОДАЕМ ДОКУМЕНТЫ</h2>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7203b2fc777a05ad8bb26bb718e771e1bfee3c5eb94b90cb5483be88a2b37d72&amp;source=constructor"  frameborder="0"></iframe>
+        </section>
+
+		</div>
+	</section>
 </main>
 
+
+<footer>
+	<div class="last">
+		<img class="lazy img-responsive"
+
+					src="data:image/gif;base64,R0lGODlhBAABAIAAAP///wAAACH5BAEAAAEALAAAAAAEAAEAAAICjFMAOw=="
+					data-src="img/@1x/logo_l.png"
+					data-srcset="img/@1x/logo_l.png 1x, img/@2x/logo_l.png 2x"
+
+					alt="лого">
+		<p>© Московский политехнический университет 2019</p>
+	</div>
+</footer>
 	
 
 
